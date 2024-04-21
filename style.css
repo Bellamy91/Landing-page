@@ -1,0 +1,215 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1F2937; /* Background color */
+    color: #F9FAF8; /* Default font color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px; /* Padding */
+    background-color: #1F2937; /* Same background color as the body */
+    margin: 0; /* No margin */
+}
+
+/* Header Logo Text */
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8; /* Font color */
+}
+
+/* Header links */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #E5E7EB; /* Font color */
+    background-color: #1F2937; /* Same background color as the header */
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Wrapper classes for centering content and adjusting padding */
+.content-wrapper-1 {
+    display: flex; /* Use flexbox layout to align text and image placeholder */
+    justify-content: space-between; /* Align text and image placeholder horizontally */
+    align-items: center; /* Center items vertically */
+    max-width: 100%; /* Take up full width of the section */
+    margin: 0 auto; /* Center the wrapper */
+    padding: 20px 50px; /* Adjusted padding */
+}
+
+.content-wrapper-2 {
+    max-width: 800px; /* Max width of content */
+    margin: 0 auto; /* Center content */
+    padding: 5px 100px; /* Padding for section 2 content wrapper */
+}
+
+.content-wrapper-3 {
+    max-width: 800px; /* Max width of content */
+    margin: 0 auto; /* Center content */
+    padding: 5px 100px; /* Padding for section 3 content wrapper */
+}
+
+.content-wrapper-4 {
+    max-width: 800px; /* Max width of content */
+    margin: 0 auto; /* Center content */
+    padding: 5px 50px; /* Padding for section 4 content wrapper */
+}
+
+
+
+/* Section 1 */
+.section-1 {
+    background-color: #1F2937;
+    padding: 20px 0; /* No left and right padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 40px;
+}
+
+.section-1 h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.section-1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Image placeholder */
+.image-placeholder {
+    width: 300px; /* Width of the placeholder */
+    height: 200px; /* Height of the placeholder */
+    background-color: #8e8f91; /* Background color of the placeholder */
+    border: 2px solid #CCC; /* Border to define the placeholder */
+}
+
+/* Adjust the text container within the content wrapper */
+.text-container {
+    max-width: 50%; /* Adjust width as needed */
+    margin-right: 20px; /* Space between text container and image placeholder */
+}
+
+/* Section 2 */
+.section-2 {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.section-2 .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Set 4 equal columns for a 1x4 grid */
+    gap: 20px; /* Space between grid items */
+    justify-content: center;
+}
+
+.section-2 .grid-item {
+    text-align: center;
+}
+
+/* Define a class for the paragraphs under each box */
+.section-2 p.text-under-box {
+    color: #1F2937; /* Default color of text */
+    margin-top: 10px; /* Space between the box and text */
+}
+
+.section-2 .box-placeholder {
+    width: 200px; /* Width of the placeholder */
+    height: 150px; /* Height of the placeholder */
+    border: 2px solid #ADD8E6; /* Light blue border */
+    margin-bottom: 10px; /* Space between the box and text */
+    margin: 0 auto; /* Center the box in the grid item */
+}
+
+
+/* Section 3 */
+.section-3 {
+    background-color: #E5E7EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.section-3 p {
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section-3 footer {
+    text-align: right;
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 22px;
+}
+
+/* Section 4 */
+.section-4 {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.section-4 .cta-container {
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.section-4 .cta-container p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.section-4 .cta-container button {
+    background-color: white;
+    color: #3882F6;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
